@@ -1,0 +1,19 @@
+{
+  "name": "alexanderkravchuk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "nodemon": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "mailgun": "^0.5.0",
+    "mailgun-js": "^0.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}

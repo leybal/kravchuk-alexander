@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "nodemon": "nodemon ./bin/www"
+    "install": "cd client && npm install && npm run build && cd .. && npm install",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.18.2",

@@ -1,5 +1,8 @@
 ## Kravchuk Alexander (CV)
 
+### Herocu deploy
+It does not require any commands.
+
 ### client
 	npm install
 	npm run build

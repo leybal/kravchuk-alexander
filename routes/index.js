@@ -7,7 +7,7 @@ const domain = 'sandboxd67776a6525f4a8e95a49789eeed60f7.mailgun.org';
 const mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 
-router.get('/*', function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.sendFile('index.html');
 });
 
